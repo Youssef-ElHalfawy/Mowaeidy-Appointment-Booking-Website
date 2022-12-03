@@ -1,0 +1,43 @@
+.sec-image-square {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	box-shadow: 1px 0px 7px 6px #d9d9d9;
+}
+.sec-image-reminder {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	transform: rotateZ(30deg);
+	z-index: -17;
+}
+@media screen and (max-width: 600px) {
+	.sec-image-reminder {
+		transform: rotateZ(0deg);
+	}
+	.soon-bg {
+		display: none;
+	}
+	.soon {
+		text-align: center;
+	}
+}
+.soon {
+	height: 70vh;
+	--bs-gutter-x: 0 !important;
+}
+.soon-bg {
+	background-image: url("/public/Assets/Images/ftReviews.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.soon h4 {
+	letter-spacing: 20px;
+}
+.main-appo {
+	height: fit-content;
+	background-image: url("/public/Assets/Images/mainAppointmentBG.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}

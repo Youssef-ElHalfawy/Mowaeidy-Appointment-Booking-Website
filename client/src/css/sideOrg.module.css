@@ -1,0 +1,25 @@
+.sideCard {
+	position: sticky;
+	max-height: 86vh;
+	top: 4.5rem;
+}
+.sideCardBody {
+	overflow: auto;
+}
+.truncate {
+	display: inline-block;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+@media screen and (max-width: 600px) {
+	.sideCard {
+		position: fixed;
+		width: 70vw;
+		max-height: 88vh;
+		top: 3.5rem;
+		left: 15%;
+		z-index: 666;
+	}
+}

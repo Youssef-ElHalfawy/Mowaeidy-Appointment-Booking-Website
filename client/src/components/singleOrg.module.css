@@ -1,0 +1,7 @@
+.oneCard {
+	transition: all 0.5s ease-out;
+}
+.oneCard:hover {
+	transform: scale(1.04);
+	z-index: 33;
+}

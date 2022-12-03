@@ -1,0 +1,26 @@
+.ft-card {
+	min-height: 60vh;
+	box-shadow: 0px 4px 3px 1px rgb(145 145 145 / 35%);
+	border-radius: 20px;
+	transition: all 0.6s ease-in-out;
+}
+.ft-card-img {
+	height: 100px;
+	object-fit: contain;
+}
+.ft-card:hover {
+	background-color: var(--bs-primary) !important;
+	transform: translateY(-20px);
+
+	text-align: center;
+}
+.ft-card:hover .ft-card-title {
+	color: var(--bs-warning);
+	border-color: var(--bs-warning)!important;
+}
+.ft-card:hover .ft-card-body {
+	color: white!important;
+}
+.ft-card:hover .ft-card-sub {
+	color: var(--bs-warning)!important;
+}

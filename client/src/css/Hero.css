@@ -1,0 +1,49 @@
+.hero {
+	height: 91vh;
+	background-color: var(--bs-primary);
+	width: 100%;
+}
+.hero img {
+	/* max-height: 91vh; */
+	width: 100%;
+}
+.imgOne {
+	background-image: url("/public/Assets/Images/1.jpg");
+}
+.imgTwo {
+	background-image: url("/public/Assets/Images/3.jpg");
+}
+.imgThree {
+	background-image: url("/public/Assets/Images/4.jpg");
+}
+.imgOne,
+.imgTwo,
+.imgThree {
+	height: 91vh;
+	background-size: cover;
+	z-index: -4;
+}
+.Carousel.Item {
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	background-size: cover;
+	-webkit-backdrop-size: cover;
+}
+.Carousel.Caption {
+	bottom: 220px;
+	z-index: 5;
+}
+.Carousel.Caption h1 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.Carousel.Caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: Poppins;
+}

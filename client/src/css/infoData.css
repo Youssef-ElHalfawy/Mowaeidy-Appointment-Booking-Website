@@ -1,0 +1,13 @@
+.info-data ,.edit-info-data{
+	border: 1px solid var(--bs-primary);
+	border-radius: 20px;
+}
+.info-data input,
+.info-data textarea {
+	box-shadow: 0 0 0 0 black;
+	color: var(--bs-primary);
+}
+.info-data label,
+.info-data .form-label {
+  color: var(--bs-warning);
+}

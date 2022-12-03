@@ -1,0 +1,8 @@
+#sidebar-menu {
+	width: 150px;
+}
+@media (max-width: 576px) {
+	#sidebar-menu {
+		width: 60px;
+	}
+}
